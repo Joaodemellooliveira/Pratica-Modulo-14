@@ -1,0 +1,83 @@
+body{
+    font-family: roboto, sans-serif;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo img {
+    height: 60px;
+    padding-right: 10px;
+}
+
+.navbar {
+    background-color: #415ee1;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #415ee1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e6ffff;
+}
+
+.section-title {
+    font-family: "Seaweed Script", cursive;
+    font-size: 1.9em;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+#sobre-a-agencia,
+#informacoes {
+    background-color: #e6ffff;
+}
+
+.text-colored {
+    color: #415ee1;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #415ee1;
+    color: #fff;
+}
+
+
+.nav-cardapio .nav-link:hover {
+    color: #415ee1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        width: 100%;
+    }
+
+    
+}
